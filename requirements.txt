@@ -3,7 +3,6 @@ astropy==6.0.0
 matplotlib==3.6.1
 mplcairo==0.5.post33+g68b4558
 numpy==1.26.2
-Pillow==9.2.0
 Pillow==10.2.0
 python-slugify==8.0.2
 python_bidi==0.4.2
