@@ -121,9 +121,9 @@ With `zz` replaced by your language code.
 <!-- start-diagram-links -->
 
 ## Diagrams Links
- <ul>
- Below are links to the diagrams produced by this code. You can also find the diagram captions and any translations of these captions in the links.
 
+ Below are links to the diagrams produced by this code. You can also find the diagram captions and any translations of these captions in the links.
+ <ul>
 </ul>
 
 <!-- end-diagram-links -->
