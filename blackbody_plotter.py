@@ -60,7 +60,7 @@ parser.add_argument('--translate_filenames', help='If True output filenames will
 args = parser.parse_args()
 
 if not args.translations_file:
-    translations_path = Path(__file__).parent / "./translations.json"
+    translations_path = Path(__file__).parent / "./translations/translations.json"
 else:
     translations_path = Path(args.translations_file)
 translations_file = open(translations_path)
