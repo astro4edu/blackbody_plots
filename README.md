@@ -17,9 +17,13 @@ The following command line options are available:
                         If True output filenames will be in requested language. If False output filenames will be in
                         English. Default is False
 ```
-Example usage, for British English, using untranslated filenames, the default translation file, pdf output format and output directory "/home/user/plots/", one would use the command:
-```python3 spectral_types_plot.py --lang=en-gb --output_format=pdf --plot_dir=/home/user/plots/ ```
+Example usage, for English, using untranslated filenames, the default translation file, pdf output format and output directory "/home/user/plots/", one would use the command:
+```python3 spectral_types_plot.py --lang=en --output_format=pdf --plot_dir=/home/user/plots/ ```
 The code creates one plot for each of the seven spectral types (showing both a line of wavelength vs flux and a band plot showing light and dark patches on the spectrum) and two comparison plots showing all seven spectra (one with a line plot, one with a band plot).
+
+## License
+The code released is available under an MIT license and should be credited to IAU OAE/Niall Deacon. The plots in the plots directory and the translations in the translations directory are published under a <a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC-BY-4.0 license</a>.
+
 ## Credits
 Please credit all plots created by this code to IAU OAE/Niall Deacon. Some of the characteristics of the plots were inspired by the following <a href="[https://www.sdss4.org/dr17/mastar/](https://en.wikipedia.org/wiki/Planck%27s_law#/media/File:Black_body.svg)">plot from Wikipedia</a>.
 <!-- start-translation-credits -->
@@ -113,6 +117,17 @@ And instead have:
 Then just run:
 ```python3 blackbody_plot.py --lang=zz```
 With `zz` replaced by your language code.
+
+<!-- start-diagram-links -->
+
+## Diagrams Links
+ <ul>
+ Below are links to the diagrams produced by this code. You can also find the diagram captions and any translations of these captions in the links.
+<li><a href="http://astro4edu.org/resources/diagram/NE74hZ95Ee34/">Spectrum of an O-type star</a></li>
+</ul>
+
+<!-- end-diagram-links -->
+
 
 ## Fonts
 The built-in fonts for matplotlib often struggle with non-Latin characters. The code is set up to try to load commonly used fonts for the writing system it is producing the plots for. If you want to load a font that is already installed on your system then you can tell the code to use that font by adding it to the start of the list in the `possible_fonts` list in `translations.json`. If you are struggling to get a particular writing system to work with this code then you can download the font you want to use and copy the `.ttf` file to the `fonts` folder of this repository. The code will then automatically load that font. The Google <a href="https://fonts.google.com/noto">Noto Fonts</a> project provides fonts in a wide range of writing systems. For some writing systems (mostly scripts used in South Asia such as Devanagari or Bengali) we recommend you use the <a href="https://pypi.org/project/mplcairo/">mplcairo matplotlib backend</a>. Once you have installed mplcairo, change "matplotlib_cairo" from false to true (lowercase, no quotemarks).
