@@ -29,6 +29,7 @@ Please credit all plots created by this code to IAU OAE/Niall Deacon. Some of th
 <!-- start-translation-credits -->
 
 ## Translation credits
+
 <!-- end-translation-credits -->
 
 ## Adding your own translation
@@ -120,8 +121,7 @@ With `zz` replaced by your language code.
 
 <!-- start-diagram-links -->
 
-## Diagrams Links
-
+## Diagram Links
  Below are links to the diagrams produced by this code. You can also find the diagram captions and any translations of these captions in the links.
  <ul>
 </ul>
