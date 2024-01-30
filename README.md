@@ -126,7 +126,8 @@ With `zz` replaced by your language code.
 ## Diagram Links
  Below are links to the diagrams produced by this code. You can also find the diagram captions and any translations of these captions in the links.
  <ul>
-<li><a href="http://astro4edu.org/resources/diagram/JI31N7441y90/">a diagram</a></li>
+<li><a href="http://astro4edu.org/resources/diagram/8m97bG23XT57/">Blackbody Radiation</a></li>
+<li><a href="http://astro4edu.org/resources/diagram/p90iM23hm85/">Blackbody Radiation - UV Catastrophe</a></li>
 </ul>
 
 <!-- end-diagram-links -->
