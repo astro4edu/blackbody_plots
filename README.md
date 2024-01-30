@@ -29,6 +29,8 @@ Please credit all plots created by this code to IAU OAE/Niall Deacon. Some of th
 <!-- start-translation-credits -->
 
 ## Translation credits
+### German
+Niall Deacon
 
 <!-- end-translation-credits -->
 
