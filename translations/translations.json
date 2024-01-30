@@ -19,26 +19,6 @@
     "teff3": "8000K",
     "text_uv_cat": "Classical theory - 8000K"
   },
-  "de": {
-    "translation_approval_level": "N",
-    "translation_credit": "Niall Deacon",
-    "matplotlib_cairo": false,
-    "possible_fonts": [
-      "Noto Sans",
-      "Arial"
-    ],
-    "title_text": "Schwarzkörper-Strahlung",
-    "title_text_uv_cat": "Schwarzkörperstrahlung Ultraviolettkatastrophe",
-    "xaxis_text": "Wellenlänge (nm)",
-    "yaxis_text": "Emittierte Strahlung (kW/m$^2$/nm)",
-    "uv_text": "ultraviolett",
-    "vis_text": "sichtbares Licht",
-    "ir_text": "Infrarot",
-    "teff1": "4000K",
-    "teff2": "6000K",
-    "teff3": "8000K",
-    "text_uv_cat": "Klassische Theorie - 8000K"
-  },
   "zz": {
     "translation_approval_level": "N",
     "translation_credit": null,
