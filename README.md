@@ -24,8 +24,8 @@ The code creates one plot for each of the seven spectral types (showing both a l
 ## License
 The code released is available under an MIT license and should be credited to IAU OAE/Niall Deacon. The plots in the plots directory and the translations in the translations directory are published under a <a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC-BY-4.0 license</a>.
 
-## Credits
-Please credit all plots created by this code to IAU OAE/Niall Deacon. Some of the characteristics of the plots were inspired by the following <a href="https://en.wikipedia.org/wiki/Planck%27s_law#/media/File:Black_body.svg">plot from Wikipedia</a>.
+## Plot Credits
+Please credit all plots created by this code to IAU OAE/Niall Deacon. For languages other than English, please also credit the translators listed below. Some of the characteristics of the plots were inspired by the following <a href="https://en.wikipedia.org/wiki/Planck%27s_law#/media/File:Black_body.svg">plot from Wikipedia</a>.
 <!-- start-translation-credits -->
 
 ## Translation credits
