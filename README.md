@@ -31,6 +31,8 @@ Please credit all plots created by this code to IAU OAE/Niall Deacon. For langua
 ## Translation credits
 ### German
 Carolin Liefke
+### Portuguese BR
+Eduardo Monfardini Penteado
 
 <!-- end-translation-credits -->
 
