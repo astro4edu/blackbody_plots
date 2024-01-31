@@ -34,10 +34,10 @@
     "uv_text": "ultraviolett",
     "vis_text": "sichtbares Licht",
     "ir_text": "Infrarot",
-    "teff1": "4000K",
-    "teff2": "6000K",
-    "teff3": "8000K",
-    "text_uv_cat": "Klassische Theorie - 8000K"
+    "teff1": "4000 K",
+    "teff2": "6000 K",
+    "teff3": "8000 K",
+    "text_uv_cat": "Klassische Theorie - 8000 K"
   },
   "zz": {
     "translation_approval_level": "N",
