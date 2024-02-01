@@ -139,4 +139,4 @@ The built-in fonts for matplotlib often struggle with non-Latin characters. The 
 
 The color representation is a linear colour spectrum from 450-650nm. Bluer than 450nm is coloured blue, even though the human eye sees very little bluer than 400nm. Redder than 650nm is coloured red even thought the human eye has very little redder than 750nm.
 
-For languages other than English, please check the translation approval level in the translations.json file. If approval level is marked as 'N' then the translation has not been reviewed, translations marked 'A' have been approved by a reviewer in our review system.
+For languages other than English, please check the translation approval level in the translations.json file. If approval level is marked as 'N' then the translation has not been reviewed, translations marked 'Y' have been approved by a reviewer in our review system.
