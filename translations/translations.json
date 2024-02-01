@@ -14,30 +14,50 @@
     "uv_text": "ultraviolet",
     "vis_text": "visible light",
     "ir_text": "infrared",
-    "teff1": "4000K",
-    "teff2": "6000K",
-    "teff3": "8000K",
-    "text_uv_cat": "Classical theory - 8000K"
+    "teff1": "4000 K",
+    "teff2": "6000 K",
+    "teff3": "8000 K",
+    "text_uv_cat": "Classical theory - 8000 K"
   },
   "de": {
     "translation_approval_level": "N",
-    "translation_credit": "Niall Deacon",
+    "translation_credit": "Carolin Liefke",
     "matplotlib_cairo": false,
     "possible_fonts": [
       "Noto Sans",
       "Arial"
     ],
-    "title_text": "Schwarzkörper-Strahlung",
+    "title_text": "Schwarzkörperstrahlung",
     "title_text_uv_cat": "Schwarzkörperstrahlung Ultraviolettkatastrophe",
     "xaxis_text": "Wellenlänge (nm)",
     "yaxis_text": "Emittierte Strahlung (kW/m$^2$/nm)",
     "uv_text": "ultraviolett",
     "vis_text": "sichtbares Licht",
     "ir_text": "Infrarot",
-    "teff1": "4000K",
-    "teff2": "6000K",
-    "teff3": "8000K",
-    "text_uv_cat": "Klassische Theorie - 8000K"
+    "teff1": "4000 K",
+    "teff2": "6000 K",
+    "teff3": "8000 K",
+    "text_uv_cat": "Klassische Theorie - 8000 K"
+  },
+  "pt-br": {
+    "translation_approval_level": "N",
+    "translation_credit": "Eduardo Monfardini Penteado",
+    "matplotlib_cairo": false,
+    "possible_fonts": [
+      "Noto Sans",
+      "Arial"
+    ],
+    "title_text": "Radiação de corpo negro",
+    "title_text_uv_cat": "Radiação de corpo negro catástrofe do ultravioleta",
+    "xaxis_text": "Comprimento de onda (nm)",
+    "yaxis_text": "Radiação emitida (kW/m$^2$/nm)",
+    "uv_text": "ultravioleta",
+    "vis_text": "luz visível",
+    "ir_text": "infravermelho",
+    "teff1": "4000 K",
+    "teff2": "6000 K",
+    "teff3": "8000 K",
+    "text_uv_cat": "Teoria clássica - 8000 K"
   },
   "zz": {
     "translation_approval_level": "N",
@@ -54,9 +74,9 @@
     "uv_text": "ultraviolet",
     "vis_text": "visible light",
     "ir_text": "infrared",
-    "teff1": "4000K",
-    "teff2": "6000K",
-    "teff3": "8000K",
-    "text_uv_cat": "Classical theory - 8000K"
+    "teff1": "4000 K",
+    "teff2": "6000 K",
+    "teff3": "8000 K",
+    "text_uv_cat": "Classical theory - 8000 K"
   }
 }
