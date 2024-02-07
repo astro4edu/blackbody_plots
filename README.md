@@ -31,6 +31,8 @@ Please credit all plots created by this code to IAU OAE/Niall Deacon. For langua
 ## Translation credits
 ### German
 Carolin Liefke
+### Italian
+Giuliana Giobbi
 ### Portuguese BR
 Eduardo Monfardini Penteado
 
@@ -39,88 +41,53 @@ Eduardo Monfardini Penteado
 ## Adding your own translation
 You can add your own translations by downloading this repository and editing the translations.json file. Each language starts with a [language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) followed by translations of each text element. We have included a placeholder `zz` language code that you can edit (or copy and edit if you want to add more than one language). For example if you were to translate the terms into Brazilian Portuguese you would edit:
 ```
- "zz":{
-	"translation_approval_level":"N",
-	"Translation Credit":null,
-	"matplotlib_cairo": false,
-	"possible_fonts": [
-     		 "Noto Sans",
-     		 "Arial"
-		],
-        "xaxis_text":"Wavelength (nanometers)",
-        "yaxis_text":"Flux",
-        "spectral_features_title":"Important spectral features",
-        "balmer_text":"Hydrogen atoms",
-        "helium_atoms_text":"Helium atoms",
-        "helium_ions_text":"Helium ions",
-        "calcium_atoms_text":"Calcium atoms",
-        "calcium_ions_text":"Calcium ions",
-        "sodium_atoms_text":"Sodium atoms",
-        "titanium_oxide_text":"Titanium Oxide",
-        "title0":"Spectrum of an O-type star",
-        "title1":"Spectrum of a B-type star",
-        "title2":"Spectrum of an A-type star",
-        "title3":"Spectrum of an F-type star",
-        "title4":"Spectrum of a G-type star",
-        "title5":"Spectrum of a K-type star",
-        "title6":"Spectrum of an M-type star",
-        "spectrum_title0":"O-type star",
-        "spectrum_title1":"B-type star",
-        "spectrum_title2":"A-type star",
-        "spectrum_title3":"F-type star",
-        "spectrum_title4":"G-type star",
-        "spectrum_title5":"K-type star",
-        "spectrum_title6":"M-type star",
-        "bands_title":"Stellar Spectra",
-        "lambda_lower":"365 nm",
-        "lambda_upper":"900 nm",
-	"bands_filename":"spectra bands",
-	"lines_filename":"spectra lines"
-        }
+ "zz": {
+    "translation_approval_level": "N",
+    "translation_credit": null,
+    "matplotlib_cairo": false,
+    "possible_fonts": [
+      "Noto Sans",
+      "Arial"
+    ],
+    "title_text": "Blackbody Radiation",
+    "title_text_uv_cat": "Blackbody Radiation ultraviolet catastrophe",
+    "xaxis_text": "Wavelength (nm)",
+    "yaxis_text": "Radiation emitted (kW/m$^2$/nm)",
+    "uv_text": "ultraviolet",
+    "vis_text": "visible light",
+    "ir_text": "infrared",
+    "teff1": "4000 K",
+    "teff2": "6000 K",
+    "teff3": "8000 K",
+    "text_uv_cat": "Classical theory - 8000 K"
+  }
 ```
 And instead have:
 ```
 "pt-br": {
-	"translation_approval_level": "N",
-	"Translation Credit":"Translator: Eduardo Penteado",
-	"matplotlib_cairo": false,
-	"possible_fonts": [
-     		 "Noto Sans",
-     		 "Arial"
-		],
-	"xaxis_text": "comprimento de Onda (nanômetros)",
-	"yaxis_text": "fluxo",
-	"spectral_features_title": "características espectrais importantes",
-	"balmer_text": "átomos de Hidrogênio",
-	"helium_atoms_text": "átomos de Hélio",
-	"helium_ions_text": "íons de Hélio",
-	"calcium_atoms_text": "Átomos de Cálcio",
-	"calcium_ions_text": "íons de Cálcio",
-	"sodium_atoms_text": "átomos de Sódio",
-	"titanium_oxide_text": "óxido de Titânio",
-	"title0": "Espectro de uma estrela do tipo O",
-	"title1": "Espectro de uma estrela do tipo B",
-	"title2": "Espectro de uma estrela do tipo A",
-	"title3": "Espectro de uma estrela do tipo F",
-	"title4": "Espectro de uma estrela do tipo G",
-	"title5": "Espectro de uma estrela do tipo K",
-	"title6": "Espectro de uma estrela do tipo M",
-	"spectrum_title0": "estrela do tipo O",
-	"spectrum_title1": "estrela do tipo B",
-	"spectrum_title2": "estrela do tipo A",
-	"spectrum_title3": "estrela do tipo F",
-	"spectrum_title4": "estrela do tipo G",
-	"spectrum_title5": "estrela do tipo K",
-	"spectrum_title6": "estrela do tipo M",
-	"bands_title": "Espectros Estelares",
-	"lambda_lower": "365 nm",
-	"lambda_upper": "900 nm",
-	"bands_filename": "bandas_espectrais",
-	"lines_filename": "linhas_espectrais" },
+    "translation_approval_level": "N",
+    "translation_credit": null,
+    "matplotlib_cairo": false,
+    "possible_fonts": [
+      "Noto Sans",
+      "Arial"
+    ],
+    "title_text": "Radiação de corpo negro",
+    "title_text_uv_cat": "Radiação de corpo negro catástrofe do ultravioleta",
+    "xaxis_text": "Comprimento de onda (nm)",
+    "yaxis_text": "Radiação emitida (kW/m$^2$/nm)",
+    "uv_text": "ultravioleta",
+    "vis_text": "luz visível",
+    "ir_text": "infravermelho",
+    "teff1": "4000 K",
+    "teff2": "6000 K",
+    "teff3": "8000 K",
+    "text_uv_cat": "Teoria clássica - 8000 K"
+}
 ```
 
 Then just run:
-```python3 blackbody_plot.py --lang=zz```
+```python3 blackbody_plotter.py --lang=zz```
 With `zz` replaced by your language code.
 
 <!-- start-diagram-links -->
@@ -142,4 +109,4 @@ The built-in fonts for matplotlib often struggle with non-Latin characters. The 
 
 The color representation is a linear colour spectrum from 450-650nm. Bluer than 450nm is coloured blue, even though the human eye sees very little bluer than 400nm. Redder than 650nm is coloured red even thought the human eye has very little redder than 750nm.
 
-For languages other than English, please check the translation approval level in the translations.json file. If approval level is marked as 'N' then the translation has not been reviewed, translations marked 'A' have been approved by a reviewer in our review system.
+For languages other than English, please check the translation approval level in the translations.json file. If approval level is marked as 'N' then the translation has not been reviewed, translations marked 'Y' have been approved by a reviewer in our review system.
