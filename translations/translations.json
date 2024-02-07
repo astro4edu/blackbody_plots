@@ -39,6 +39,26 @@
     "teff3": "8000 K",
     "text_uv_cat": "Klassische Theorie - 8000 K"
   },
+  "it": {
+    "translation_approval_level": "N",
+    "translation_credit": "Giuliana Giobbi",
+    "matplotlib_cairo": false,
+    "possible_fonts": [
+      "Noto Sans",
+      "Arial"
+    ],
+    "title_text": "Radiazione di corpo nero",
+    "title_text_uv_cat": "Radiazione di corpo nero catastrofe ultravioletta",
+    "xaxis_text": "Lunghezza d'onda (nm)",
+    "yaxis_text": "Radiazione emessa (kW/m$^2$/nm)",
+    "uv_text": "ultravioletto",
+    "vis_text": "luce visibile",
+    "ir_text": "infrarossi",
+    "teff1": "4000 K",
+    "teff2": "6000 K",
+    "teff3": "8000 K",
+    "text_uv_cat": "Teoria classica - 8000 K"
+  },
   "pt-br": {
     "translation_approval_level": "N",
     "translation_credit": "Eduardo Monfardini Penteado",
