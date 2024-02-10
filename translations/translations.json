@@ -39,6 +39,26 @@
     "teff3": "8000 K",
     "text_uv_cat": "Klassische Theorie - 8000 K"
   },
+  "fr": {
+    "translation_approval_level": "N",
+    "translation_credit": "Rulx Narcisse",
+    "matplotlib_cairo": false,
+    "possible_fonts": [
+      "Noto Sans",
+      "Arial"
+    ],
+    "title_text": "Rayonnement du corps noir",
+    "title_text_uv_cat": "Catastrophe ultraviolette de la radiation du corps noir",
+    "xaxis_text": "Longueur d'onde (nm)",
+    "yaxis_text": "Rayonnement émis (kW/m$^2$/nm) (kW/m²/nm)",
+    "uv_text": "ultraviolet",
+    "vis_text": "lumière visible",
+    "ir_text": "infrarouge",
+    "teff1": "4000 K",
+    "teff2": "6000 K",
+    "teff3": "8000 K",
+    "text_uv_cat": "Théorie classique - 8000 K"
+  },
   "it": {
     "translation_approval_level": "N",
     "translation_credit": "Giuliana Giobbi",
