@@ -50,7 +50,7 @@
     "title_text": "Rayonnement du corps noir",
     "title_text_uv_cat": "Catastrophe ultraviolette de la radiation du corps noir",
     "xaxis_text": "Longueur d'onde (nm)",
-    "yaxis_text": "Rayonnement émis (kW/m$^2$/nm) (kW/m²/nm)",
+    "yaxis_text": "Rayonnement émis (kW/m$^2$/nm)",
     "uv_text": "ultraviolet",
     "vis_text": "lumière visible",
     "ir_text": "infrarouge",
