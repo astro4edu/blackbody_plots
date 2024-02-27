@@ -29,6 +29,8 @@ Please credit all plots created by this code to IAU OAE/Niall Deacon. For langua
 <!-- start-translation-credits -->
 
 ## Translation credits
+### Arabic
+Ali Al-Edhari
 ### German
 Carolin Liefke
 ### French
