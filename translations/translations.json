@@ -19,6 +19,30 @@
     "teff3": "8000 K",
     "text_uv_cat": "Classical theory - 8000 K"
   },
+  "ar": {
+    "translation_approval_level": "N",
+    "translation_credit": "Ali Al-Edhari",
+    "matplotlib_cairo": false,
+    "possible_fonts": [
+      "Noto Sans Arabic",
+      "Simplified Arabic",
+      "Geezah",
+      "Traditional Arabic",
+      "Segoe UI",
+      ".SF Arabic"
+    ],
+    "title_text": "إشعاع الجسم الأسود",
+    "title_text_uv_cat": "كارثة الأشعة فوق البنفسجية لإشعاع الجسم الأسود",
+    "xaxis_text": "الطول الموجي (نانومتر)",
+    "yaxis_text": "الإشعاع المنبعث (كيلو وات/متر مربع/نانومتر)",
+    "uv_text": "الأشعة فوق البنفسجية",
+    "vis_text": "الضوء المرئي",
+    "ir_text": "الأشعة تحت الحمراء",
+    "teff1": "4000 كلفن",
+    "teff2": "6000 كلفن",
+    "teff3": "8000 كلفن",
+    "text_uv_cat": "النظرية الكلاسيكية - 8000 كلفن"
+  },
   "de": {
     "translation_approval_level": "N",
     "translation_credit": "Carolin Liefke",
