@@ -181,7 +181,7 @@ for index,Teff in enumerate(teff_vec):
     specific_intensity=np.pi*1.0e-12*(2.0*h*c**2/wavelength_tmp**5)*1.0/(np.exp(h*c/(wavelength_tmp*k_B*Teff))-1.0)
     max_intensity_tmp=max(specific_intensity)
     wavelength_at_max=wavelength[specific_intensity.argmax()]
-    ax.text(wavelength_at_max,max_intensity_tmp+0.02*max_intensity,text_list_en['teff'+str(index+1)],ha='center',fontsize=14)
+    ax.text(wavelength_at_max,max_intensity_tmp+0.02*max_intensity,text_list['teff'+str(index+1)],ha='center',fontsize=14)
     ax.plot(wavelength,specific_intensity,color='k')
 ax.text(0.5*(lambda_vis_min+lambda_vis_max),1.09*max_intensity,text_list['vis_text'],ha='center',va='top',fontsize=light_type_font_size)
 ax.text(0.5*(lambda_vis_min+lambda_uv_min),1.09*max_intensity,text_list['uv_text'],ha='center',va='top',fontsize=light_type_font_size)
