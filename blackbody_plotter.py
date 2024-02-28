@@ -153,7 +153,13 @@ k_B = const.k_B.value
 wavelength_tmp=1e-9*wavelength
 
 teff_vec=[4000.0,6000.0,8000.0]
-
+if len(text_list['uv_text'])>20:
+    light_type_font_size=10
+elif len(text_list['uv_text'])>15:
+    light_type_font_size=12
+else:
+    light_type_font_size=14
+    
 
 plt.figure()
 plt.rcParams['figure.figsize']= 15,8
@@ -177,9 +183,9 @@ for index,Teff in enumerate(teff_vec):
     wavelength_at_max=wavelength[specific_intensity.argmax()]
     ax.text(wavelength_at_max,max_intensity_tmp+0.02*max_intensity,text_list_en['teff'+str(index+1)],ha='center',fontsize=14)
     ax.plot(wavelength,specific_intensity,color='k')
-ax.text(0.5*(lambda_vis_min+lambda_vis_max),1.09*max_intensity,text_list['vis_text'],ha='center',va='top',fontsize=14)
-ax.text(0.5*(lambda_vis_min+lambda_uv_min),1.09*max_intensity,text_list['uv_text'],ha='center',va='top',fontsize=14)
-ax.text(0.5*(lambda_max+lambda_vis_max),1.09*max_intensity,text_list['ir_text'],ha='center',va='top',fontsize=14)
+ax.text(0.5*(lambda_vis_min+lambda_vis_max),1.09*max_intensity,text_list['vis_text'],ha='center',va='top',fontsize=light_type_font_size)
+ax.text(0.5*(lambda_vis_min+lambda_uv_min),1.09*max_intensity,text_list['uv_text'],ha='center',va='top',fontsize=light_type_font_size)
+ax.text(0.5*(lambda_max+lambda_vis_max),1.09*max_intensity,text_list['ir_text'],ha='center',va='top',fontsize=light_type_font_size)
 ax.set_ylim(0,offset*max_intensity)
 ax.set_xlim(lambda_min,lambda_max)
 ax.set_ylabel(text_list['yaxis_text'],fontsize=20)
