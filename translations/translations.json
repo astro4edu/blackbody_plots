@@ -103,6 +103,30 @@
     "teff3": "8000 K",
     "text_uv_cat": "Teoria classica - 8000 K"
   },
+  "mr": {
+    "translation_approval_level": "N",
+    "translation_credit": "Kshitij Chavan",
+    "matplotlib_cairo": true,
+    "possible_fonts": [
+      "Noto Sans Devanagari",
+      "Devanagari",
+      "Aparajita",
+      "Kokila",
+      "Mangal",
+      "Utsaah"
+    ],
+    "title_text": "कृष्णिका प्रारण",
+    "title_text_uv_cat": "कृष्णिका प्रारण अतिनील आपत्ती",
+    "xaxis_text": "तरंगलांबी (नॅनोमीटर)",
+    "yaxis_text": "उत्सर्जित प्रारण (kW/m$^2$/nm)",
+    "uv_text": "अतिनील",
+    "vis_text": "दृश्यमान प्रकाश",
+    "ir_text": "अवरक्त",
+    "teff1": "४००० के",
+    "teff2": "६००० के",
+    "teff3": "८००० के",
+    "text_uv_cat": "अभिजात सिद्धांत - ८००० के"
+  },
   "pt-br": {
     "translation_approval_level": "N",
     "translation_credit": "Eduardo Monfardini Penteado",
