@@ -37,6 +37,8 @@ Carolin Liefke
 Rulx Narcisse
 ### Italian
 Giuliana Giobbi
+### Marathi
+Kshitij Chavan
 ### Portuguese BR
 Eduardo Monfardini Penteado
 
