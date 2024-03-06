@@ -41,12 +41,15 @@ def font_loader(possible_fonts):
     for font in possible_fonts:
         if font in loaded_font_list:
             usable_fonts.append(font)
+    if "Noto Sans" in loaded_font_list:
+        usable_fonts.append("Noto Sans") #add Noto Sans font as backup
     if "Arial Unicode" in loaded_font_list:
         usable_fonts.append("Arial Unicode") #add Arial Unicode font as backup
     if "DejaVu Sans" in loaded_font_list:
-        usable_fonts.append("DejaVu Sans") #add default matplotlib font as backup
+        usable_fonts.append("DejaVu Sans") #add default matplotlib font as backupNotoSans
     plt.rcParams['font.family']=usable_fonts #pass fonts to matplotlib
-    
+
+
 #Begin argument parsing
 parser = argparse.ArgumentParser(description='Make spectrum plots of stars')
 
@@ -56,6 +59,7 @@ parser.add_argument('--plot_dir', help='add directory for output plots. Default 
 parser.add_argument('--translations_file', help='add the JSON file containing translations. Default is translations.json in this package.')
 parser.add_argument('--output_format', help='add the output format for the plots. options: eps, jpg, jpeg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff. Default is png.',default='png')
 parser.add_argument('--translate_filenames', help='If True output filenames will be in requested language. If False output filenames will be in English. Default is False',default=False)
+parser.add_argument('--unicode_font', help='add a font that covers the full unicode multilingual plane (only needed for mplcairo)')
 
 args = parser.parse_args()
 
@@ -116,8 +120,18 @@ from matplotlib import font_manager
 from matplotlib import cm
     
 text_list_en=translations_dicts['en']
-font_loader(possible_fonts)
 
+
+if text_list["matplotlib_cairo"]:
+    if not args.unicode_font:
+        prompt_string='\nPlease  a font that covers the full unicode multilingual plane. For example Arial Unicode MS:'
+        unicode_font=input(prompt_string)
+    else:
+        unicode_font=args.unicode_font
+        
+    plt.rcParams['font.family'] = unicode_font
+else:
+    font_loader(possible_fonts)
         
 #setup plot definitions
 lambda_min=10
@@ -160,11 +174,11 @@ elif len(text_list['uv_text'])>15:
 else:
     light_type_font_size=14
     
-
 plt.figure()
 plt.rcParams['figure.figsize']= 15,8
 plt.rcParams.update({'font.size': 12})
 mpl.rcParams['axes.linewidth'] =1.0
+mpl.rcParams["axes.titlepad"]=8.0
 #lines = ['--','-.',':']
 offset=1.1
 max_intensity=-1.0
@@ -197,7 +211,6 @@ if args.translate_filenames:
 else:
     filename_tmp=slugify(text_list_en['title_text'])+'_'+language_code
     filename_tmp_uv_cat=slugify(text_list_en['title_text_uv_cat'])+'_'+language_code
-    
 print("Saving: ",text_list_en['title_text']+'\nTo: '+str(outfile_base.joinpath(filename_tmp+'.'+str.lower(args.output_format))))
 plt.savefig(outfile_base.joinpath(filename_tmp+'.'+str.lower(args.output_format)))
 specific_intensity_uv_cat=np.pi*1.0e-12*(2.0*k_B*c*8000.0/wavelength_tmp**4)
