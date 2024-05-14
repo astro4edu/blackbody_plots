@@ -43,8 +43,6 @@ Giuliana Giobbi
 Kshitij Chavan
 ### Portuguese BR
 Eduardo Monfardini Penteado
-### Simplified Chinese
-Niall Deacon
 
 <!-- end-translation-credits -->
 
