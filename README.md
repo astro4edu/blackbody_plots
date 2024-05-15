@@ -34,7 +34,7 @@ Please credit all plots created by this code to IAU OAE/Niall Deacon. For langua
 ### German
 Niall Deacon
 ### Simplified Chinese
-Deacon
+Niall Deacon
 ### Traditional Chinese
 Niall Deacon
 
