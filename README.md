@@ -43,6 +43,8 @@ Giuliana Giobbi
 Kshitij Chavan
 ### Portuguese BR
 Eduardo Monfardini Penteado
+### Simplified Chinese
+bao_lizhuo
 ### Traditional Chinese
 bao_lizhuo
 
