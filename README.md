@@ -46,7 +46,7 @@ Eduardo Monfardini Penteado
 ### Simplified Chinese
 Bao Lizhuo
 ### Traditional Chinese
-bao_lizhuo
+Bao Lizhuo
 
 <!-- end-translation-credits -->
 
