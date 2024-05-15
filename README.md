@@ -36,7 +36,7 @@ Niall Deacon
 ### Simplified Chinese
 Deacon
 ### Traditional Chinese
-Deacon
+Niall Deacon
 
 <!-- end-translation-credits -->
 
