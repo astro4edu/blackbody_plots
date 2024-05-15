@@ -14,142 +14,34 @@
     "uv_text": "ultraviolet",
     "vis_text": "visible light",
     "ir_text": "infrared",
-    "teff1": "4000 K",
-    "teff2": "6000 K",
-    "teff3": "8000 K",
-    "text_uv_cat": "Classical theory - 8000 K"
-  },
-  "ar": {
-    "translation_approval_level": "N",
-    "translation_credit": "Ali Al-Edhari",
-    "matplotlib_cairo": false,
-    "possible_fonts": [
-      "Noto Sans Arabic",
-      "Simplified Arabic",
-      "Geezah",
-      "Traditional Arabic",
-      "Segoe UI",
-      ".SF Arabic"
-    ],
-    "title_text": "إشعاع الجسم الأسود",
-    "title_text_uv_cat": "كارثة الأشعة فوق البنفسجية لإشعاع الجسم الأسود",
-    "xaxis_text": "الطول الموجي (نانومتر)",
-    "yaxis_text": "الإشعاع المنبعث (كيلو وات/متر مربع/نانومتر)",
-    "uv_text": "الأشعة فوق البنفسجية",
-    "vis_text": "الضوء المرئي",
-    "ir_text": "الأشعة تحت الحمراء",
-    "teff1": "4000 كلفن",
-    "teff2": "6000 كلفن",
-    "teff3": "8000 كلفن",
-    "text_uv_cat": "النظرية الكلاسيكية - 8000 كلفن"
+    "teff1": "4000K",
+    "teff2": "6000K",
+    "teff3": "8000K",
+    "text_uv_cat": "Classical theory - 8000K"
   },
   "de": {
     "translation_approval_level": "N",
-    "translation_credit": "Carolin Liefke",
+    "translation_credit": "Niall Deacon",
     "matplotlib_cairo": false,
     "possible_fonts": [
       "Noto Sans",
       "Arial"
     ],
-    "title_text": "Schwarzkörperstrahlung",
+    "title_text": "Schwarzkörper-Strahlung",
     "title_text_uv_cat": "Schwarzkörperstrahlung Ultraviolettkatastrophe",
     "xaxis_text": "Wellenlänge (nm)",
     "yaxis_text": "Emittierte Strahlung (kW/m$^2$/nm)",
     "uv_text": "ultraviolett",
     "vis_text": "sichtbares Licht",
     "ir_text": "Infrarot",
-    "teff1": "4000 K",
-    "teff2": "6000 K",
-    "teff3": "8000 K",
-    "text_uv_cat": "Klassische Theorie - 8000 K"
-  },
-  "fr": {
-    "translation_approval_level": "N",
-    "translation_credit": "Rulx Narcisse",
-    "matplotlib_cairo": false,
-    "possible_fonts": [
-      "Noto Sans",
-      "Arial"
-    ],
-    "title_text": "Rayonnement du corps noir",
-    "title_text_uv_cat": "Catastrophe ultraviolette de la radiation du corps noir",
-    "xaxis_text": "Longueur d'onde (nm)",
-    "yaxis_text": "Rayonnement émis (kW/m$^2$/nm)",
-    "uv_text": "ultraviolet",
-    "vis_text": "lumière visible",
-    "ir_text": "infrarouge",
-    "teff1": "4000 K",
-    "teff2": "6000 K",
-    "teff3": "8000 K",
-    "text_uv_cat": "Théorie classique - 8000 K"
-  },
-  "it": {
-    "translation_approval_level": "N",
-    "translation_credit": "Giuliana Giobbi",
-    "matplotlib_cairo": false,
-    "possible_fonts": [
-      "Noto Sans",
-      "Arial"
-    ],
-    "title_text": "Radiazione di corpo nero",
-    "title_text_uv_cat": "Radiazione di corpo nero catastrofe ultravioletta",
-    "xaxis_text": "Lunghezza d'onda (nm)",
-    "yaxis_text": "Radiazione emessa (kW/m$^2$/nm)",
-    "uv_text": "ultravioletto",
-    "vis_text": "luce visibile",
-    "ir_text": "infrarossi",
-    "teff1": "4000 K",
-    "teff2": "6000 K",
-    "teff3": "8000 K",
-    "text_uv_cat": "Teoria classica - 8000 K"
-  },
-  "mr": {
-    "translation_approval_level": "N",
-    "translation_credit": "Kshitij Chavan",
-    "matplotlib_cairo": true,
-    "possible_fonts": [
-      "Noto Sans Devanagari",
-      "Devanagari",
-      "Aparajita",
-      "Kokila",
-      "Mangal",
-      "Utsaah"
-    ],
-    "title_text": "कृष्णिका प्रारण",
-    "title_text_uv_cat": "कृष्णिका प्रारण अतिनील आपत्ती",
-    "xaxis_text": "तरंगलांबी (नॅनोमीटर)",
-    "yaxis_text": "उत्सर्जित प्रारण (kW/m²/nm)",
-    "uv_text": "अतिनील",
-    "vis_text": "दृश्यमान प्रकाश",
-    "ir_text": "अवरक्त",
-    "teff1": "४००० के",
-    "teff2": "६००० के",
-    "teff3": "८००० के",
-    "text_uv_cat": "अभिजात सिद्धांत - ८००० के"
-  },
-  "pt-br": {
-    "translation_approval_level": "N",
-    "translation_credit": "Eduardo Monfardini Penteado",
-    "matplotlib_cairo": false,
-    "possible_fonts": [
-      "Noto Sans",
-      "Arial"
-    ],
-    "title_text": "Radiação de corpo negro",
-    "title_text_uv_cat": "Radiação de corpo negro catástrofe do ultravioleta",
-    "xaxis_text": "Comprimento de onda (nm)",
-    "yaxis_text": "Radiação emitida (kW/m$^2$/nm)",
-    "uv_text": "ultravioleta",
-    "vis_text": "luz visível",
-    "ir_text": "infravermelho",
-    "teff1": "4000 K",
-    "teff2": "6000 K",
-    "teff3": "8000 K",
-    "text_uv_cat": "Teoria clássica - 8000 K"
+    "teff1": "4000K",
+    "teff2": "6000K",
+    "teff3": "8000K",
+    "text_uv_cat": "Klassische Theorie - 8000K"
   },
   "zh-hans": {
     "translation_approval_level": "N",
-    "translation_credit": "bao_lizhuo",
+    "translation_credit": "deacon",
     "matplotlib_cairo": false,
     "possible_fonts": [
       "Noto Sans SC",
@@ -160,20 +52,20 @@
       "DengXian"
     ],
     "title_text": "黑体辐射",
-    "title_text_uv_cat": "黑体辐射的“紫外灾难”",
+    "title_text_uv_cat": "黑体辐射 紫外线灾难",
     "xaxis_text": "波长（纳米）",
-    "yaxis_text": "发出的辐射（千瓦/米$^2$/纳米）",
+    "yaxis_text": "发出的辐射（千瓦/米^$2$/纳米）",
     "uv_text": "紫外线",
     "vis_text": "可见光",
-    "ir_text": "红外线",
-    "teff1": "4000 K",
-    "teff2": "6000 K",
-    "teff3": "8000 K",
-    "text_uv_cat": "经典理论 - 8000 K"
+    "ir_text": "红外",
+    "teff1": "4000K",
+    "teff2": "6000K",
+    "teff3": "8000K",
+    "text_uv_cat": "经典理论 - 8000K"
   },
   "zh-hant": {
     "translation_approval_level": "N",
-    "translation_credit": "bao_lizhuo",
+    "translation_credit": "Deacon",
     "matplotlib_cairo": false,
     "possible_fonts": [
       "Noto Sans SC",
@@ -184,16 +76,16 @@
       "DengXian"
     ],
     "title_text": "黑體輻射",
-    "title_text_uv_cat": "黑體輻射的“紫外災難”",
+    "title_text_uv_cat": "黑體輻射 紫外綫災難",
     "xaxis_text": "波長（納米）",
-    "yaxis_text": "發齣的輻射（韆瓦/米$^2$/納米）",
+    "yaxis_text": "發齣的輻射（韆瓦/米^$2$/納米）",
     "uv_text": "紫外綫",
     "vis_text": "可見光",
-    "ir_text": "紅外綫",
-    "teff1": "4000 K",
-    "teff2": "6000 K",
-    "teff3": "8000 K",
-    "text_uv_cat": "經典理論 - 8000 K"
+    "ir_text": "紅外",
+    "teff1": "4000K",
+    "teff2": "6000K",
+    "teff3": "8000K",
+    "text_uv_cat": "經典理論 - 8000K"
   },
   "zz": {
     "translation_approval_level": "N",
@@ -210,9 +102,9 @@
     "uv_text": "ultraviolet",
     "vis_text": "visible light",
     "ir_text": "infrared",
-    "teff1": "4000 K",
-    "teff2": "6000 K",
-    "teff3": "8000 K",
-    "text_uv_cat": "Classical theory - 8000 K"
+    "teff1": "4000K",
+    "teff2": "6000K",
+    "teff3": "8000K",
+    "text_uv_cat": "Classical theory - 8000K"
   }
 }
