@@ -45,8 +45,6 @@ Kshitij Chavan
 Eduardo Monfardini Penteado
 ### Simplified Chinese
 Bao Lizhuo
-### Traditional Chinese
-Bao Lizhuo
 
 <!-- end-translation-credits -->
 
