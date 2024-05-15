@@ -65,7 +65,7 @@
   },
   "zh-hant": {
     "translation_approval_level": "N",
-    "translation_credit": "Deacon",
+    "translation_credit": "Niall Deacon",
     "matplotlib_cairo": false,
     "possible_fonts": [
       "Noto Sans SC",
