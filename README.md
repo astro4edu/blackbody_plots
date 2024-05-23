@@ -35,6 +35,8 @@ Please credit all plots created by this code to IAU OAE/Niall Deacon. For langua
 Ali Al-Edhari
 ### German
 Carolin Liefke
+### Spanish
+Samantha Brown-Sevilla
 ### French
 Rulx Narcisse
 ### Italian
