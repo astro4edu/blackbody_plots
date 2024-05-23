@@ -77,7 +77,7 @@
     "yaxis_text": "Radiación emitida (kW/m$^2$/nm)",
     "uv_text": "ultravioleta",
     "vis_text": "luz visible",
-    "ir_text": "infrarrojos",
+    "ir_text": "infrarrojo",
     "teff1": "4000 K",
     "teff2": "6000 K",
     "teff3": "8000 K",
