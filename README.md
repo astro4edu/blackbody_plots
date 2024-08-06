@@ -1,5 +1,5 @@
 ## What this repository does	
-This repository creates a series of plots of stellar spectra in multiple languages. 
+This repository creates a plots for the blackbody spectrum in multiple languages. It produces two plots, one with just the blackbody spectrum and one wiht the blackbody spectrum and the classical "ultraviolet catastrophe" case.
 
 ## How to create plots using this repository
 The command to run code from this repository is:
