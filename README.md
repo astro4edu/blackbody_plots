@@ -37,6 +37,8 @@ Ali Al-Edhari
 Carolin Liefke
 ### Spanish
 Samantha Brown-Sevilla
+### Persian
+Mohammad Sadegh Faghanpour
 ### French
 Rulx Narcisse
 ### Italian
