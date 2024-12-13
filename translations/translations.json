@@ -83,6 +83,30 @@
     "teff3": "8000 K",
     "text_uv_cat": "Teoría clásica - 8000 K"
   },
+  "fa": {
+    "translation_approval_level": "N",
+    "translation_credit": "Mohammad Sadegh Faghanpour",
+    "matplotlib_cairo": false,
+    "possible_fonts": [
+      "Noto Sans Arabic",
+      "Simplified Arabic",
+      "Geezah",
+      "Traditional Arabic",
+      "Segoe UI",
+      ".SF Arabic"
+    ],
+    "title_text": "تابش جسم سیاه",
+    "title_text_uv_cat": "تابش جسم سیاه و فاجعه فرابنفش",
+    "xaxis_text": "طول موج (نانومتر)",
+    "yaxis_text": "تابش گسیل‌شده (کیلووات بر مترمربع بر نانومتر)",
+    "uv_text": "فرابنفش",
+    "vis_text": "نور مرئی",
+    "ir_text": "فروسرخ",
+    "teff1": "4000 کلوین",
+    "teff2": "6000 کلوین",
+    "teff3": "8000 کلوین",
+    "text_uv_cat": "نظریه کلاسیک - 8000 کلوین"
+  },
   "fr": {
     "translation_approval_level": "N",
     "translation_credit": "Rulx Narcisse",
