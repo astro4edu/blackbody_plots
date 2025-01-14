@@ -101,7 +101,7 @@ text_list=translations_dicts[language_code]
 possible_fonts=text_list['possible_fonts']
 
 #important that arabic reshaper comes before bidi get_display
-if language_code.startswith('ar'):
+if language_code.startswith('ar') or language_code in ['ar','az','bal','fa','ks','ku','prs','ps','ug','ur']:
     text_list = {key:(arabic_reshaper.reshape(value) if type(value)==str else value) for key, value in text_list.items()}
 
 
