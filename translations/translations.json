@@ -88,6 +88,7 @@
     "translation_credit": "Mohammad Sadegh Faghanpour",
     "matplotlib_cairo": false,
     "possible_fonts": [
+      "Noto Naskh Arabic",
       "Noto Sans Arabic",
       "Simplified Arabic",
       "Geezah",
