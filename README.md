@@ -45,6 +45,8 @@ Rulx Narcisse
 Giuliana Giobbi
 ### Marathi
 Kshitij Chavan
+### Nepali
+Manisha Dwa
 ### Portuguese BR
 Eduardo Monfardini Penteado
 ### Simplified Chinese
