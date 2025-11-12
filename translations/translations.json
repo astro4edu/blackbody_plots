@@ -172,6 +172,30 @@
     "teff3": "८००० के",
     "text_uv_cat": "अभिजात सिद्धांत - ८००० के"
   },
+  "ne": {
+    "translation_approval_level": "N",
+    "translation_credit": "Manisha Dwa",
+    "matplotlib_cairo": true,
+    "possible_fonts": [
+      "Noto Sans Devanagari",
+      "Devanagari",
+      "Aparajita",
+      "Kokila",
+      "Mangal",
+      "Utsaah"
+    ],
+    "title_text": "ब्ल्याक बडी रेडिएशन (कृष्ण पिण्ड विकिरण)",
+    "title_text_uv_cat": "ब्ल्याक बडी रेडिएशन पराबैंगनी विपत्ति/संकट",
+    "xaxis_text": "तरंग (नानोमिटर)",
+    "yaxis_text": "उत्सर्जित विकिरण (किलोवाट/मिटर²/नानोमिटर)",
+    "uv_text": "पराबैंगनी",
+    "vis_text": "दृश्य प्रकाश",
+    "ir_text": "इन्फ्रारेड/अवरक्त",
+    "teff1": "४००० केल्भिन",
+    "teff2": "६००० केल्भिन",
+    "teff3": "८००० केल्भिन",
+    "text_uv_cat": "शास्त्रीय सिद्धान्त - ८००० केल्भिन"
+  },
   "pt-br": {
     "translation_approval_level": "N",
     "translation_credit": "Eduardo Monfardini Penteado",
